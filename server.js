@@ -18,7 +18,7 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 app.get('/personal', function (req, res) {
-  res.send("Navigated to Personal Page");
+  res.sendFile(path.join(__dirname, 'ui', 'personal.html'));
 });
 
 app.get('/workbook', function (req, res) {
