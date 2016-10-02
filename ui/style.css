@@ -27,3 +27,10 @@ body {
      height: 100px;
      width: 70px;
 }
+  .bullet{
+        text-align: center;
+        font-weight: bold;
+        padding-left: 20px
+        padding-right:10px
+
+        }
