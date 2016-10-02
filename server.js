@@ -22,7 +22,7 @@ app.get('/personal', function (req, res) {
 });
 
 app.get('/workbook', function (req, res) {
-  res.send("Navigated to Workbook Page");
+    res.sendFile(path.join(__dirname, 'ui', 'work.html'));
 });
 
 
