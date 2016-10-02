@@ -2,6 +2,10 @@ body {
     font-family: sans-serif;
     background-color: lightgrey;
     margin-top: 75px;
+    padding-top: 100px;
+    padding-right: inherit;
+    padding-left: 20px;
+    
 }
 
 .center {
