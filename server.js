@@ -101,6 +101,7 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 app.get('/:requestName', function (req, res) {
+    var requestName=req.params.requestName;
   res.send(createMasterTemplate(contentPages[requestName]));
 });
 
