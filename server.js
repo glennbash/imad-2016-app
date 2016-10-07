@@ -29,7 +29,7 @@ var contentPages = {
 		heading:'Observing the Stuck Threads',
 		date: 'June 11, 2014',
 		body: `<p>
-		When a WebLogic server instance’s thread pool has stuck threads, the instance will be marked as running with status “Warning” in the Administration console. Of course, it is more convenient to have a watch that triggers when there are stuck threads detected. In latest FMW installations, there is a diagnostic module created by default which contains a Server Log type watch, trigerring when the “Stuck Threads” message is detected in the servers logs. If you do not already have this watch named “StuckThreads” in your domain, then you can create a new one by these instructions and use the following Watch Rule for it:
+		When a WebLogic server instance's thread pool has stuck threads, the instance will be marked as running with statu. Of course, it is more convenient to have a watch that triggers when there are stuck threads detected. In latest FMW installations, there is a diagnostic module created by default which contains a Server Log type watch, trigerring when the Stuck Threads message is detected in the servers logs.  
 		</p>`,
 		footer: 'email the review to lenin.basheer@gmail.com'
 		},
