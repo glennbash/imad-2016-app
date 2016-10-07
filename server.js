@@ -78,7 +78,7 @@ var contentTemplate=`
     	${body}
 	</div>
 	<div class="right">
-     <a href="/content"> ${footer} </a>	
+     <a href="/${footer}">  Next </a>	
 	</div>
 
 </body>
