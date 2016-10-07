@@ -78,11 +78,11 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
-/*
+
 app.get('/personal', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'intro.html'));
 });
-*/
+
 app.get('/intro', function (req, res) {
   res.send(createMasterTemplate(contentIntro));
 });
