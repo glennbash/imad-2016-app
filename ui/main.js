@@ -2,7 +2,7 @@ console.log('Loaded!');
 
 
 var button = document.getElementById("click-me");
-button.onclick= function(req,res){
+button.onclick= function(){
     
     var req = new XMLHttpRequest();
     req.onreadystatechange = function( ){
