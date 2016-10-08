@@ -31,6 +31,7 @@ searchButton.onclick = function (){
     var list = '';
     for ( i=0; i<listOfValues.length; i++){
         list += '<li>' + listOfValues[i] + '</li>';
+        console.log(list);
     }
     
     var resultsList=document.getElementById('resultsList');
