@@ -46,7 +46,7 @@ searchButton.onclick = function (){
     
     };
      
-    req.open('GET','http://glennbash.imad.hasura-app.io/search'+ searchInput, true);
+    req.open('GET','http://glennbash.imad.hasura-app.io/search?sstring='+ searchInput, true);
     req.send('null');
     
     
