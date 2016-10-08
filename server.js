@@ -112,8 +112,8 @@ app.get('/counter', function(req, res){
 
 var names=[];
 app.get('/search', function (req, res) {
-    var name=req.query.name;
-  names.push(name);
+    var name=req.query.sstring;
+  names.push(sstring);
   res.send(JSON.stringify(names));
 });
 
