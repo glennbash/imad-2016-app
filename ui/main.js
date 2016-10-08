@@ -21,3 +21,19 @@ button.onclick= function(){
 
 };
 
+var textInput=document.getElementById("textInput");
+var searchText=textInput.value();
+
+var searchButton=document.getElementById("searchButton");
+searchButton.onclick = function (){
+    
+    listOfValues = ["Element1","Element2","Element3"];
+    var list = '';
+    for ( i=0; i<listOfValues.length; i++){
+        list += '<li>' + listOfValues[i] + '</li>';
+    }
+    
+    var resultsList=document.getElementById('resultsList');
+    resultsList.innerHTML=resultsList;
+}
+ 
