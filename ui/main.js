@@ -22,7 +22,6 @@ button.onclick= function(){
 };
 
 var textInput=document.getElementById("textInput");
-var searchText=textInput.value();
 
 var searchButton=document.getElementById("searchButton");
 searchButton.onclick = function (){
