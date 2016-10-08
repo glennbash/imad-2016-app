@@ -49,4 +49,9 @@ body {
      padding-right: 30px;
     padding-left:40px;
 }
+
+.document-head {
+    position: relative;
+    clear: both;
+}
 }
