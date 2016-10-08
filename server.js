@@ -104,6 +104,7 @@ var counter=0;
 app.get('/counter', function(req, res){
     counter=counter+1;
     res.send("Counter Page");
+     res.send(counter.toString());
 });
 app.get('/:requestName', function (req, res) {
     var requestName=req.params.requestName;
