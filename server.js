@@ -46,8 +46,8 @@ var contentPages = {
 
 function createMasterTemplate(data){
 
-var  title = data.title;
-var date=data.date;
+var title = data.title;
+var date= data.date;
 var heading = data.heading;
 var body = data.body;
 var footer=data.footer;
