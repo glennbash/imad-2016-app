@@ -2,8 +2,8 @@ body {
     font-family: sans-serif;
     background-color: lightgrey;
     margin-top: 75px;
-    padding-top: 100px;
-    padding-right: inherit;
+    padding-top: 60px;
+    padding-right: 10px;
     padding-left: 20px;
     
 }
@@ -12,6 +12,9 @@ body {
     text-align: center;
 }
 
+.left {
+    text-align: center;
+}
 .text-big {
     font-size: 300%;
 }
