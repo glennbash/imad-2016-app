@@ -34,6 +34,6 @@ searchButton.onclick = function (){
     }
     
     var resultsList=document.getElementById('resultsList');
-    resultsList.innerHTML=resultsList;
+    resultsList.innerHTML=list;
 }
  
